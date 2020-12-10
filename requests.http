@@ -1,0 +1,15 @@
+### get all demo users
+GET localhost:8080/demo/all
+
+### get admin demo users
+GET localhost:8080/demo/admin
+
+### create new user
+PUT localhost:8080/demo
+Content-Type: application/json
+
+{
+  "id": 6,
+  "name": "Felicity",
+  "isAdmin": false
+}
